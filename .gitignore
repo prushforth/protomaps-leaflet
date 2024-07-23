@@ -3,3 +3,4 @@ dist
 src/**/*.js
 test/*.js
 .tool-versions
+/nbproject/private/
