@@ -2,9 +2,9 @@ import { defineConfig, type Options } from "tsup";
 
 const baseOptions: Options = {
   clean: true,
-  minify: false,
+  minify: false, 
   skipNodeModulesBundle: true,
-  sourcemap: false,
+  sourcemap: false, 
   target: "es6",
   tsconfig: "./tsconfig.json",
   keepNames: true,
